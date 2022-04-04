@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="../css/regist.css" />
+    <script src="../js/regist.js"></script>
+  </head>
+  <body>
+    <!-- header start -->
+    <div id="header">
+      <div id="header-top"></div>
+      <div id="header-bottom">
+        <a href="../html/index.html"
+          ><img src="../assets/img/logo.png" alt=""
+        /></a>
+      </div>
+    </div>
+    <!-- header end -->
+    <!-- content start -->
+    <div id="content">
+      <div id="content-container">
+        <h2>đăng ký</h2>
+        <form action="">
+          <div class="account">
+            <input
+              id="tentruycap"
+              type="text"
+              placeholder="Tên truy cập"
+              class="txt"
+            />
+            <div id="baoloi"></div>
+          </div>
+          <div class="account">
+            <input
+              id="matkhau"
+              type="password"
+              placeholder="Mật khẩu"
+              class="txt"
+            />
+            <div id="baoloi1"></div>
+          </div>
+          <div class="account">
+            <input
+              id="password_again"
+              type="password"
+              placeholder="Nhập lại mật khẩu"
+              class="txt"
+            />
+            <div id="baoloi2"></div>
+          </div>
+          <div class="account">
+            <input id="email" type="email" placeholder="Email" class="txt" />
+            <div id="baoloi3"></div>
+          </div>
+          <div class="account account_number">
+            <select name="" id="">
+              <option value="#">VN +84</option>
+              <option value="#">TL +670</option>
+              <option value="#">VA +379</option>
+              <option value="#">TZ +255</option>
+            </select>
+            <input id="number_phone" type="text" placeholder="Số điên thoại" class="txt" />
+            <div id="baoloi4"></div>
+          </div>
+          <div class="account account_loca">
+            <select name="" id="">
+              <option value="">Vietnam(Việt Nam)</option>
+              <option value="">Korea</option>
+              <option value="">America</option>
+              <option value="">Japan</option>
+              <option value="">China</option>
+            </select>
+          </div>
+          <div class="account_check">
+            <div><input id="check_box" type="checkbox" class="txt" /></div>
+            <div>
+              <label for=""
+                >Tôi đồng ý với <a href="#">Điều Khoản Dịch vụ</a> và
+                <a href="#">Chính Sách Bảo Mật</a></label
+              >
+            </div>
+            <div id="baoloi5"></div>
+          </div>
+          <div class="login">
+            <button type="submit" onclick="kiemtra()">
+              <a id="accept_account" href="login.html">Đăng ký ngay</a>
+            </button>
+          </div>
+          <div class="narbarMid">
+            <span>hoặc</span>
+          </div>
+          <div class="regist">
+            <button type="submit">
+              <a href="../html/login.html">Đã có tài khoản</a>
+            </button>
+          </div>
+        </form>
+
+        <div id="baoloi"></div>
+      </div>
+    </div>
+    <!-- content end -->
+    <!-- footer start -->
+    <div id="footer"></div>
+    <!-- footer end -->
+  </body>
+</html>

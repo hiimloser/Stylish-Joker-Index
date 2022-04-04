@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>game</title>
+    <link rel="stylesheet" href="../css/elemet_game.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/fonts/fontawesome-free-6.0.0-web/css/all.css"
+    />
+    <script src="../js/element_game.js"></script>
+  </head>
+  <body>
+    <!-- header start -->
+    <div class="title">
+      <div class="title_right">
+        <a href="../html/index.html">Stylish Joker</a>
+      </div>
+      <div class="title_left">
+        <ul class="title_left-list">
+          <li class="title_left-item title_left-item_install">
+            <i class="fas fa-download"></i>
+            <a href="" class="item-stall">Install</a>
+          </li>
+          <li class="title_left-item">
+            <a href="../html/login.html" class="item-login">Login</a>
+          </li>
+          <li class="title_left-item">
+            <a href="">Languages</a>
+            <ul class="title_left-item_sub">
+              <li><a href="">Tiếng việt</a></li>
+              <li><a href="">English</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="wrapper">
+      <div id="header">
+        <nav class="container">
+          <a href="../html/index.html" id="logo">
+            <img src="../assets/img/zedd.jpg" alt="Stylish Joker" />
+          </a>
+          <ul id="main-menu">
+            <li><a href="">Home </a></li>
+            <li>
+              <a href="">Account</a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="../html/login.html" target="_blank">Login</a>
+                </li>
+                <li>
+                  <a href="../html/regist.html" target="_blank">Đăng ký</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="">store</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Support</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- header end -->
+    <!-- content start -->
+    <div id="content">
+      <div id="content-link">
+        <a href="allproduct.html">All game</a>
+        <i class="fa-solid fa-angle-right"></i>
+        <a href="#">List game</a>
+        <i class="fa-solid fa-angle-right"></i>
+        <a href="#">League of Legends</a>
+      </div>
+      <div id="content-name">
+        <h2><a href="#">League of Legends</a></h2>
+      </div>
+      <div id="content-info">
+        <div id="content-info_slider">
+          <div class="myslide">
+            <img src="../assets/img product 3/lol1.jpg" alt="" />
+          </div>
+          <div class="myslide">
+            <img src="../assets/img product 3/lol2.jpg" alt="" />
+          </div>
+          <div class="myslide">
+            <img src="../assets/img product 3/lol3.jpg" alt="" />
+          </div>
+          <div class="myslide">
+            <img src="../assets/img product 3/lol4.jpg" alt="" />
+          </div>
+          <div class="content-info_slider-pointer">
+            <span class="dot" onclick="currentSlide(1)"
+              ><img src="../assets/img product 3/lol1.jpg" alt=""
+            /></span>
+            <span class="dot" onclick="currentSlide(2)"
+              ><img src="../assets/img product 3/lol2.jpg" alt=""
+            /></span>
+            <span class="dot" onclick="currentSlide(3)"
+              ><img src="../assets/img product 3/lol3.jpg" alt=""
+            /></span>
+            <span class="dot" onclick="currentSlide(4)"
+              ><img src="../assets/img product 3/lol4.jpg" alt=""
+            /></span>
+          </div>
+        </div>
+        <div id="content-info_about">
+          <div id="content-info_about_face">
+            <a href="#"
+              ><img src="../assets/img product 3/lollogo.jpg" alt=""
+            /></a>
+          </div>
+          <div id="content-info_about_info">
+            <span>
+              Liên Minh Huyền Thoại là một trò chơi chiến thuật đồng đội nơi hai
+              đội với năm vị tướng mạnh mẽ sẽ đối đầu nhau nhằm mục tiêu phá hủy
+              căn cứ đối phương. Chọn một trong hơn 150 vị tướng để tạo ra những
+              pha thi đấu xuất thần, hạ gục đối thủ, san phẳng trụ địch và hướng
+              đến chiến thắng vinh quang.
+            </span>
+          </div>
+          <div class="content-info_about_dev">
+            <div class="content-info_about_dev-user">
+              <span>Developer : </span>
+            </div>
+            <div class="content-info_about_dev-name">
+              <a href="#">anymonous</a>
+            </div>
+          </div>
+          <div class="content-info_about_dev">
+            <div class="content-info_about_dev-user">
+              <span>puslisher : </span>
+            </div>
+            <div class="content-info_about_dev-name">
+              <a href="#">anymonous</a>
+            </div>
+          </div>
+          <div class="content-info_about_dev">
+            <div class="content-info_about_dev-user">
+              <span>RELEASE DATE : </span>
+            </div>
+            <div class="content-info_about_dev-name">
+              <span>14 - 05</span>
+            </div>
+          </div>
+          <div class="content-info_about_contact">
+            <h3>Buy League of Legends</h3>
+            <div class="content-info_about-buynow">
+              <div class="content-info_about-buynow_price">
+                <div class="buynow_price-sale">
+                  <span>-50%</span>
+                </div>
+                <div class="buynow_price-fix">
+                  <div class="buynow_price-fix_real">
+                    <del>200.000<u>đ</u></del>
+                  </div>
+                  <div class="buynow_price-fix_fake">100.000<u>đ</u></div>
+                </div>
+              </div>
+              <div class="content-info_about-buynow_cart">
+                <a href="#">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content-system">
+        <h3>Hệ thống và cấu hình đề nghị</h3>
+        <table>
+          <tr>
+            <th>cấu hình</th>
+            <th>cấu hình tối thiểu</th>
+            <th>cấu hình đề nghị</th>
+          </tr>
+          <tr>
+            <td>CPU</td>
+            <td>Bộ xử lí 2GHz</td>
+            <td>Bộ xử lí 4GHz Dual Core hoặc 3GHz</td>
+          </tr>
+          <tr>
+            <td>RAM</td>
+            <td>4 GB RAM</td>
+            <td>8 GB RAM trở lên</td>
+          </tr>
+          <tr>
+            <td>HDD</td>
+            <td>10 GB ổ trống</td>
+            <td>14 GB ổ trống</td>
+          </tr>
+          <tr>
+            <td>VGA</td>
+            <td>DirectX 9.0c hoặc cao hơn</td>
+            <td>
+              DirectX 9.0c hoặc cao hơn. Nvdia GeForce 8800/AMD Radeon HD 5670
+              hoặc tương đương (512 MB)
+            </td>
+          </tr>
+          <tr>
+            <td>OS</td>
+            <td>Windows XP SP3 trở lên</td>
+            <td>Windows 7 trở lên</td>
+          </tr>
+        </table>
+      </div>
+      <div id="content-driver">
+        <h3>driver</h3>
+        <div class="content-driver-container">
+          <span>
+            Để có thể duy trì đồ họa của Liên Minh Huyền Thoại mượt mà nhất có
+            thể, hãy cập nhật card màn hình thường xuyên.
+          </span>
+          <div class="content-driver_info">
+            <div><a href="#">amd</a></div>
+            <div><a href="#">nividia</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content end -->
+    <!-- footer start -->
+    <div id="footer">
+      <div id="footer-top">
+        <div id="footer-top_content">
+          <div class="footer-top_content-name">
+            <a href="../html/index.html">stylish Joker</a>
+          </div>
+          <div class="footer-top_content-link">
+            <span>
+              © 2022 Valve Corporation. All rights reserved. All trademarks are
+              property of their respective owners in the US and other countries.
+              VAT included in all prices where applicable.
+            </span>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Joker Subscriber Agreement</a></li>
+              <li><a href="#">Refunds</a></li>
+              <li><a href="#">Cookies</a></li>
+            </ul>
+          </div>
+          <div class="footer-top_content-logo">
+            <a href="../html/index.html"><img src="../assets/img/logo.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <div id="footer_bottom-top">
+          <div>
+            <h4>Về chúng tôi</h4>
+            <ul>
+              <li><a href="#">Giới thiệu</a></li>
+              <li><a href="#">Giao hàng - Đổi trả</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Trợ giúp</h4>
+            <ul>
+              <li><a href="#">Hướng dẫn mua hàng</a></li>
+              <li><a href="#">Hướng dẫn thanh toán</a></li>
+              <li><a href="#">Tài khoản giao dịch</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Kết nối với chúng tôi</h4>
+            <ul class="footer-contact">
+              <li>
+                <div>
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div><a href="">Facebook</a></div>
+              </li>
+              <li>
+                <div>
+                  <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                </div>
+                <div><a href="">Google plus</a></div>
+              </li>
+              <li>
+                <div>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div><a href="">Twitter</a></div>
+              </li>
+              <li>
+                <div>
+                  <a href=""><i class="fa-brands fa-flickr"></i></a>
+                </div>
+                <div><a href="">Flickr</a></div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4>Hãy đến với chúng tôi</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+  </body>
+</html>

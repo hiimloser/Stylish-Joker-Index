@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background: url("./assets/img/zed.jpg") no-repeat center top; */
+  background-position: center top;
+  background-size: 100%;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #f7f9fa;
+}
+h3 {
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(226, 235, 242);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* header start */
+#header {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #333;
+}
+#header-logo {
+  display: flex;
+}
+.header-logo_logo img {
+  width: 70px;
+  height: auto;
+}
+.header-logo_title {
+  line-height: 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.header-logo_title a {
+  text-decoration: none;
+  color: red;
+}
+.header-logout_id {
+  display: flex;
+}
+.header-logout_id div {
+  margin-right: 10px;
+}
+#header-logout {
+  display: flex;
+  line-height: 70px;
+}
+.header-logout_logout a {
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #333;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 12px;
+}
+.header-logout_logout a:hover {
+  color: white;
+  background-color: #333;
+}
+/* header end */
+/* content start */
+#content {
+  width: 80%;
+  height: auto;
+  /* background-color: white; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.content_left {
+  width: 35%;
+  height: 300px;
+  background-color: white;
+  border: 1px solid rgb(226, 235, 242);
+}
+.content_right {
+  width: 60%;
+  /* background-color: white; */
+}
+.content_left-user {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  border-bottom: 1px solid rgb(226, 235, 242);
+  padding-bottom: 60px;
+  margin-top: 20px;
+}
+.content_left-user_id {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.content_left-user_avatar img {
+  width: 100px;
+  height: auto;
+}
+.content_left-coin {
+  position: absolute;
+  display: flex;
+  bottom: 25px;
+}
+.content_left-pay {
+  position: absolute;
+  bottom: 0;
+  right: 52px;
+  top: 87px;
+}
+.content_left-pay a {
+  text-decoration: none;
+  padding: 3px;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.content_left-pay a:hover {
+  color: white;
+  background-color: #333;
+}
+.content_left-coin i {
+  padding-right: 5px;
+}
+.content_left-account {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 37px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.content_left-account i {
+  padding-right: 10px;
+}
+.content_left-account a {
+  text-decoration: none;
+  color: #333;
+}
+.content_left-account:hover {
+  background-color: #bfa9a952;
+}
+.content_left-account:hover > .content_left-account_change {
+  background-color: #333;
+}
+.content_left-account:hover > .content_left-account_change a {
+  color: white;
+}
+.content_left-account_change {
+  padding: 2px 6px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.content_left-account_info {
+  display: flex;
+}
+.content_left-account_change {
+  margin-left: auto;
+}
+/* content right */
+.content_right-content {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.content_right-login {
+  background-color: white;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border: 1px solid rgb(226, 235, 242);
+}
+.content_right-content_about {
+  text-align: end;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.content_right-content_about a {
+  text-decoration: none;
+  color: #333;
+}
+.content_right-content_about a:hover {
+  text-decoration: underline;
+}
+/* content end */
+/* footer start */
+#footer {
+  height: 100px;
+}
+#footer-content {
+  width: 70%;
+  margin: auto;
+}
+.footer-content_top {
+  text-align: center;
+  color: rgba(53, 76, 96, 0.4);
+}
+.footer-content_bottom ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 10px;
+}
+.footer-content_bottom ul li {
+  padding: 0px 10px;
+}
+.footer-content_bottom ul li:first-child {
+  border-right: 1px solid #333;
+}
+.footer-content_bottom ul li a {
+  text-decoration: none;
+  color: #333;
+}
+/* footer send */

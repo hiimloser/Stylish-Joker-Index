@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 12px Helvetica, Arial, sans-serif;
+  background-color: #ecebe6;
+}
+h2 {
+  text-align: center;
+  padding-top: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+input {
+  padding: 8px 10px;
+  width: 310px;
+}
+button {
+  padding: 10px;
+  width: 336px;
+  border: none;
+  cursor: pointer;
+  color: #ecebe6;
+}
+form {
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* header start */
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+#header-top {
+  height: 5px;
+  width: 100%;
+  background-color: red;
+}
+#header-bottom {
+  height: 95px;
+  line-height: 107px;
+  width: 100%;
+  text-align: center;
+}
+#header-bottom a img {
+  width: 75px;
+}
+/* header end */
+/* content start */
+#content {
+  width: 100%;
+  height: 700px;
+}
+#content-container {
+  width: 50%;
+  height: 600px;
+  margin: 60px auto;
+  background-color: white;
+}
+.account {
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.login,
+.regist {
+  text-align: center;
+  padding: 15px 0;
+}
+.login button {
+  background-color: red;
+}
+.regist button {
+  background-color: #333;
+}
+.narbarMid {
+  height: 1px;
+  width: 336px;
+  margin: auto;
+  background-color: #333;
+  position: relative;
+}
+.narbarMid span {
+  right: 152px;
+  top: -11px;
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+}
+.account_number select {
+  padding: 8px 0px;
+  width: 78px;
+}
+.account_number input {
+  width: 229px;
+}
+.account_loca select {
+  width: 337px;
+  padding: 7px 0px;
+}
+.account_check {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.account_check input {
+  width: 25px;
+}
+.account_check a {
+  color: aqua;
+}
+/* content end */
+/* error */
+.loi {
+  border: 1px solid red;
+}
+
+#baoloi4,
+#baoloi3,
+#baoloi2,
+#baoloi1,
+#baoloi {
+  bottom: -6px;
+  position: absolute;
+  margin: auto;
+  color: red;
+  font-size: 11px;
+  left: 171px;
+}
+#baoloi5 {
+  bottom: -12px;
+  position: absolute;
+  margin: auto;
+  color: red;
+  font-size: 11px;
+  left: 171px;
+}
